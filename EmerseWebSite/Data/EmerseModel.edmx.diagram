@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e061b3bdcb34765926c1f9ca9964433" Name="Diagram1">
+        <EntityTypeShape EntityType="EmerseDbModel.Content" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmerseDbModel.User" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmerseDbModel.Image" Width="1.5" PointX="0.875" PointY="3.625" />
+        <EntityTypeShape EntityType="EmerseDbModel.ImageCategory" Width="1.5" PointX="3.375" PointY="3.75" />
+        <AssociationConnector Association="EmerseDbModel.FK_Image_ImageCategory" />
+        <EntityTypeShape EntityType="EmerseDbModel.ContentCategory" Width="1.5" PointX="5.375" PointY="3.75" />
+        <AssociationConnector Association="EmerseDbModel.FK_Content_Content" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

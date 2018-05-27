@@ -1,0 +1,100 @@
+﻿.gridContent {
+
+
+    padding: 10px;
+ 
+}
+
+.myGrid {
+   
+    width: 100%;
+   
+}
+
+    .myGrid tr th {
+        background-color: #70AFF7;
+        color: #ffffff;
+        padding: 10px 5px 10px 5px;
+        border: 1px solid #cccccc;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: capitalize;
+    }
+
+    .myGrid tr:nth-child(2n+2) {
+        background-color: #f3f4f5;
+    }
+
+    .myGrid tr:nth-child(2n+1) td {
+        background-color: #f3f4f5;
+        color: #454545;
+    }
+
+    .myGrid tr td {
+        padding: 5px 10px 5px 10px;
+        color: #454545;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        border: 1px solid #cccccc;
+        vertical-align: middle;
+        text-align: center;
+        
+    }
+
+        .myGrid tr td:first-child {
+            text-align: center;
+            margin-left: 500px;
+        }
+
+.gridButton {
+    padding: 8px;
+    color: #A09C9F;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    border: 1px solid;
+    font-weight: bold;
+}
+.gridInsertButton {
+    padding: 8px;
+    color:#A09C9F;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    border: 1px solid;
+    margin-left: 1260px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.gridText {
+    padding: 10px 10px;
+    width: 1350px;
+    border: #939191 1px solid;
+    color: black;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+.gridTextField {
+    height: 500px;
+    width: 1350px;
+    border: #939191 1px solid;
+    color: black;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+.gridTextImage {
+    padding: 10px 10px;
+    width: 500px;
+}
+
+.gridLbl {
+    font-size:25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
